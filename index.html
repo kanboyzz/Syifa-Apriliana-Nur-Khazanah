@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saturnus • Partikel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="scene" id="scene">
+    <canvas id="saturn"></canvas>
+    <div class="ring-container" id="ringContainer"></div>
+  </div>
+
+  <div class="label">Saturnus</div>
+
+  <button class="music-btn" id="musicBtn" aria-label="Putar musik">
+    <svg class="icon-play" viewBox="0 0 24 24" width="18" height="18"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+    <svg class="icon-pause" viewBox="0 0 24 24" width="18" height="18" style="display:none"><path d="M6 5h4v14H6zM14 5h4v14h-4z" fill="currentColor"/></svg>
+  </button>
+
+  <!-- Menggunakan file musik milikmu -->
+  <audio id="bgMusic" loop preload="none">
+    <source src="ssstik.io_1789136841844.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
